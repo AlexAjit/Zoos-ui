@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F8FC;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*Gradient colour combination for sidebar navigation*/
+.sidebar {
+    background: linear-gradient(180deg, #A84EF3 0%, #76A5F3 100%);
+    border-radius: 0 24px 24px 0;
+}
+
+/*Gradient colour combination for text*/
+.gradient-text {
+    background: linear-gradient(90deg, #A84EF3, #2b68c9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.top-gradient {
+    background: linear-gradient(90deg, #9737FF, #6681E2);
+    height: 10px;
+}
+
+.create-button {
+    background: linear-gradient(90deg, #6681E2 50%, #9737FF 100%);
+}
